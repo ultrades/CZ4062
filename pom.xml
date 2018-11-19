@@ -22,6 +22,13 @@
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 	
+  <repositories>
+    <repository>
+        <id>Spring Lib Release</id>
+        <url>http://repo.spring.io/libs-release/</url>
+    </repository>
+  </repositories>
+	
   <dependencies>
 <dependency>
     <groupId>org.apache.brooklyn</groupId>
@@ -91,7 +98,7 @@
 <dependency>
     <groupId>org.jenkins-ci.main</groupId>
     <artifactId>jenkins-core</artifactId>
-    <version>2.19</version>
+    <version>2.34</version>
     <scope>provided</scope>
 </dependency>
 <dependency>
