@@ -232,6 +232,10 @@
 	    <artifactId>juddi-client</artifactId>
 	    <version>3.3.4</version>
 	</dependency>
-
+	<dependency>
+	    <groupId>org.apache.cxf.fediz</groupId>
+	    <artifactId>fediz-core</artifactId>
+	    <version>1.4.3</version>
+	</dependency>
   </dependencies>
 </project>
